@@ -1,0 +1,12 @@
+.rvmrc
+*.sw?
+.DS_Store
+coverage
+rdoc
+pkg
+.project
+.loadpath
+*qt_temp*
+*~
+*.gem
+install.log

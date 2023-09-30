@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    ach (0.4.10)
+      holidays (>= 1.2.0, < 3.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ZenTest (4.9.5)
+    autotest (4.4.6)
+      ZenTest (>= 4.4.1)
+    diff-lcs (1.2.5)
+    holidays (2.0.0)
+    rake (10.1.1)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
+    rspec-core (3.2.1)
+      rspec-support (~> 3.2.0)
+    rspec-expectations (3.2.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-mocks (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-support (3.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ach!
+  autotest
+  rake
+  rspec (~> 3.2)
